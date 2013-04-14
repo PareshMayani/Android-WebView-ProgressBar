@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+   <TextView
+       android:layout_height="wrap_content"
+       android:layout_width="fill_parent"
+       android:text="This is the demo of WebView Client"
+       android:textSize="20sp"
+       android:gravity="center_horizontal">       
+   </TextView>
+   
+    <ProgressBar 
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:layout_gravity="center"
+       android:id="@+id/progressBar1"/>  	
+       
+   <WebView
+       android:id="@+id/webview01"
+       android:layout_height="wrap_content"
+       android:layout_width="fill_parent"
+       android:layout_weight="1">
+   </WebView>
+   
+  
+
+</LinearLayout>
